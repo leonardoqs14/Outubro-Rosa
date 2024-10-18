@@ -67,6 +67,9 @@ header nav ul a {
   align-items: center;
   justify-content: space-evenly;
 }
+.terceirasessao img {
+  width: 20%;
+}
 
 footer {
   background-color: #ff69b4;
