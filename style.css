@@ -62,13 +62,13 @@ header nav ul a {
 
 .terceirasessao {
   background-color: #FFD9EC;
-  height: 30vh;
+  height: 40vh;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 .terceirasessao img {
-  width: 20%;
+  width: 30%;
 }
 
 footer {
@@ -98,23 +98,32 @@ footer {
 
 @media (max-width: 768px) {
   header {
-    height: 20vh;
+    height: 22vh;
+    display: flex;
     flex-direction: column;
   }
-  header nav {
+  header nav{
     width: 95%;
   }
+  header section img{
+    height: 8vh;
+  }
+  header nav ul a {
+    color: #E4EEF1;
+    font-size: 20px;
+  }
   .sessaoAlerta {
-    height: 80vh;
+    height: 110vh;
     flex-direction: column-reverse;
+    img{
+      width: 40vh;
+      border-radius: 3%;
+    }
   }
   .sessaoAlerta p {
     width: 90%;
     font-size: 22px;
     text-align: center;
-  }
-  .sessaoAlerta img {
-    width: 50%;
   }
   .sessaoCorrida {
     height: 80vh;
@@ -126,17 +135,32 @@ footer {
     text-align: center;
   }
   .terceirasessao {
-    height: 120vh;
+    height: 180vh;
     flex-direction: column;
+    img{
+      width: 40vh;
+    }
   }
   footer {
-    height: 15vh;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+  
+    img{
+      width: 40px;
+    }
+    .nav2{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
   }
   footer nav {
     align-items: center;
   }
   footer .class1 {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
+
   }
 }/*# sourceMappingURL=style.css.map */
